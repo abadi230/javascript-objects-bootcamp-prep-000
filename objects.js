@@ -14,4 +14,4 @@ function removeFromPlaylist(playlist, artistName){
 }
 
 */
-const 
+const playlist = {}
