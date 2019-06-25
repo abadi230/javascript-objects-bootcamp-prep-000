@@ -16,7 +16,11 @@ function removeFromPlaylist(playlist, artistName){
 */
 const playlist = {'Talal Maddah': 'A7ebak lo'}
 function updatePlaylist(obj, key, value){
-  return obj[key]= value;
+  obj[key]= value;
+  return obj
 }
 
-function 
+function removeFromPlaylist(obj, key){
+  delete obj.key
+  return obj;
+}
