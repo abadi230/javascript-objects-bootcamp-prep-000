@@ -14,7 +14,7 @@ function removeFromPlaylist(playlist, artistName){
 }
 
 */
-const playlist = {artist: song}
+const playlist = {Talal Maddah: 'song'}
 function updatePlaylist(obj, key, value){
   return Opject.assign(obj, {[key]: value})
 }
