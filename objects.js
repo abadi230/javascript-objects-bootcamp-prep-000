@@ -1,4 +1,4 @@
-var playlist = {
+/*var playlist = {
   artist: 'song pair'
 };
 
@@ -13,3 +13,5 @@ function removeFromPlaylist(playlist, artistName){
   // return playlist
 }
 
+*/
+const 
