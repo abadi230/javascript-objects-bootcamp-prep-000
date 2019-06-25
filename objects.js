@@ -15,4 +15,6 @@ function removeFromPlaylist(playlist, artistName){
 
 */
 const playlist = {artist: song}
-function 
+function updatePlaylist(obj, key, value){
+  return Object.assign({},obj,[key]: value)
+}
